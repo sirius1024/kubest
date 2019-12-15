@@ -30,6 +30,7 @@ func (s *service) GetServing(client sdk_v1alpha1.KnServingClient, serviceName st
 	return s.r.GetServing(client, serviceName)
 }
 
+// Test
 func (s *service) GetAllServing(client sdk_v1alpha1.KnServingClient) (*v1alpha1.ServiceList, error) {
 	return s.r.GetAllServing(client)
 }
